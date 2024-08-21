@@ -1,0 +1,60 @@
+#education {
+    margin: 0;
+    padding: 50px 0;
+    background-image:  url('../img/kit3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+}
+
+.section-heading {
+    font-size: 2rem;
+    text-align: center;
+    color: #fff; 
+}
+
+.mb75px {
+    margin-bottom: 75px;
+}
+
+.education-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.education-box {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); 
+    border-radius: 8px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+.education-logo img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.experience-designation,
+.experience-company-name,
+.experience-duration,
+.experience-description {
+    margin: 0;
+    color: #fff; 
+}
+
+.m-blue {
+    color: #007bff;
+}
+
+.text-align-justify {
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .education-box {
+        width: 100%;
+    }
+}
